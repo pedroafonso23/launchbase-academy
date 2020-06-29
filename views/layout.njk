@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+  
+        <!-- Aqui vai ser inserido html de outras paginas com nunjucks -->
+        {% block head %}
+            <title>Gym Manager</title>
+        {% endblock %}
+
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="links">
+                <a href="/about">Instructors</a>
+                <a href="/classes">Members</a>
+            </div>
+        </header>
+
+        <!-- Aqui vai ser inserido html de outras paginas com nunjucks -->
+        {% block content %}       
+        {% endblock %}
+
+    </body>
+
+</html>

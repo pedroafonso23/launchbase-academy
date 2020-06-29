@@ -1,0 +1,22 @@
+{
+    "instructors": [
+        {
+            "id": 1,
+            "avatar_url": "https://www.google.com",
+            "name": "Pedro",
+            "birth": 629337600000,
+            "gender": "F",
+            "services": "Crossfit, Swimming",
+            "created_at": 1593468663515
+        },
+        {
+            "id": 2,
+            "avatar_url": "https://www.google.com",
+            "name": "Pedro Afonso",
+            "birth": 655516800000,
+            "gender": "M",
+            "services": "Crossfit, Swimming, Running",
+            "created_at": 1593468763940
+        }
+    ]
+}
